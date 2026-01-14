@@ -1,0 +1,102 @@
+Title
+Malnutrition Analysis Across the Globe Using Power BI
+1. Introduction
+Malnutrition remains one of the most critical global health challenges, affecting children and adults across different income groups and regions. It includes conditions such as underweight, stunting, wasting, and overweight, which directly impact mortality, productivity, and long-term development.
+This project focuses on analyzing global malnutrition indicators using data visualization and business intelligence techniques to identify patterns, trends, and high-risk regions.
+2. Objective of the Project
+The main objectives of this project are:
+To analyze malnutrition indicators across countries and income classifications
+To compare stunting, wasting, underweight, and overweight statistics
+To provide interactive visual insights for decision-makers
+To identify high-risk regions requiring urgent policy intervention
+3. Scope of the Project
+Covers global malnutrition data
+Compares indicators across countries and income classifications
+Provides summarized KPIs and detailed visual analysis
+Designed for health analysts, policymakers, and researchers
+4. Dataset Description
+The dataset used includes the following attributes:
+Key Fields
+Country
+Income Classification
+Stunting
+Wasting
+Underweight
+Overweight
+Year / Survey Data
+Measures Created
+Sum of Stunting
+Sum of Wasting
+Sum of Underweight
+Sum of Overweight
+Total Survey Count
+5. Tools & Technologies Used
+Power BI Desktop
+DAX (Data Analysis Expressions)
+Excel / CSV Dataset
+Data Modeling & Relationships
+Interactive Visualizations
+6. Dashboard Design Overview
+The dashboard titled “Malnutrition Across the Globe” is designed with a clear, visually appealing layout using rounded cards and consistent color themes.
+Key Dashboard Components
+KPI Cards
+Bar Charts
+Area Charts
+Line Charts
+Stacked Visuals
+7. Dashboard Components Explanation
+7.1 KPI Cards
+Count of Wasting: Displays total wasting cases
+Sum of Stunting: Shows total stunting cases (in millions)
+Sum of Underweight: Displays total underweight count
+These cards give a quick snapshot of global malnutrition severity.
+7.2 Malnutrition by Income Classification
+Stacked Bar + Line Chart
+Shows Stunting, Wasting, and Underweight by income groups
+Helps compare malnutrition prevalence between low, middle, and high-income countries
+Line indicates overall trend of stunting
+Insight:
+Lower-income groups show significantly higher malnutrition indicators.
+7.3 Underweight by Country
+Area/Line Chart
+Displays underweight levels across countries
+Highlights countries with the highest burden of undernutrition
+Insight:
+Certain regions contribute disproportionately to global underweight cases.
+7.4 Overweight vs Underweight Analysis
+Stacked Area Chart
+Compares overweight and underweight cases across income classifications
+Shows the double burden of malnutrition
+Insight:
+Middle-income countries experience both undernutrition and rising overweight cases.
+8. Data Modeling
+Proper relationships created between:
+Country
+Income Classification
+Nutrition Indicators
+Measures created using DAX for aggregation and KPIs
+Filters applied at visual and page level
+9. Key Insights & Findings
+Low-income countries have the highest stunting and wasting levels
+Middle-income countries show a mix of underweight and overweight
+Underweight remains dominant in specific regions
+Malnutrition patterns vary significantly by income level
+10. Challenges Faced
+Handling missing and inconsistent data
+Managing multiple indicators in one dashboard
+Designing a clean UI without visual clutter
+Ensuring accurate aggregation using DAX
+11. Conclusion
+This project successfully demonstrates how Power BI can be used to transform raw global health data into meaningful insights. The dashboard enables users to quickly understand malnutrition trends and supports data-driven decision-making for health policy and planning.
+12. Future Enhancements
+Add time-based trend analysis
+Include geographical maps
+Integrate real-time WHO or UNICEF data
+Add drill-through pages for country-level insights
+Predictive analysis using ML integration
+13. Applications
+Public Health Monitoring
+Government Policy Planning
+NGO & UNICEF/WHO Analysis
+Academic Research
+Awareness & Reporting Dashboards
